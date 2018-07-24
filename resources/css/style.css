@@ -17,6 +17,11 @@ html{
   color: #399bd1;
   background-color: inherit;
 }
+@media only screen and (max-width:767px){
+  .navbar-collapse {
+    display: none;
+  }
+}
 /* Jumbotron Section*/
 .jumbotron{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -33,6 +38,18 @@ html{
   font-family: 'Open Sans';
   max-width: 51.3rem;
   margin: auto;
+}
+@media only screen and (max-width:767px){
+  .jumbotron h1{
+    font-family: Monoton,sans-serif;
+    font-size: 5.7rem;
+    color: white;
+  }
+}
+@media only screen and (max-width:550px){
+  .jumbotron h1{
+    font-size: 4rem;
+  }
 }
 .jumbotron-bike{
   background-image: url('../images/jumbotron-bike.jpg');
@@ -56,6 +73,9 @@ h2{
   font-weight: bold;
   color: #399bd1;
 }
+.author{
+  font-weight: bold;
+}
 .featured-project h3, .project h3{
   font-size: 1.3rem;
   font-weight: bold;
@@ -73,4 +93,20 @@ h2{
 }
 .project{
   margin-bottom: 5.85rem;
+}
+/*Trouble Section*/
+.trouble{
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 5.2rem 0rem;
+  width: 100%;
+}
+.trouble strong{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1.4rem;
+}
+.trouble p{
+  margin: auto;
+  max-width: 42rem;
 }
