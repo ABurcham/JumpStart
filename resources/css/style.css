@@ -50,3 +50,24 @@ html{
 .btn-primary:active{
   box-shadow: 0 0 0 rgba(0,0,0,0.5);
 }
+/*Featured Project Section*/
+.featured-project h2{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+.featured-project h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+}
+.featured-project .image-container{
+  margin-top: 20px;
+  height: 19rem;
+  overflow: hidden;
+}
+.image-container img{
+  opacity: 0.7;
+  width: 100%;
+}
